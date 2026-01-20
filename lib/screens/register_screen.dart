@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'home_after_login.dart';
 
 class RegisterScreen extends StatefulWidget {
-  const RegisterScreen({Key? key}) : super(key: key);
+  const RegisterScreen({super.key});
 
   @override
   State<RegisterScreen> createState() => _RegisterScreenState();
@@ -826,7 +827,13 @@ class _RegisterScreenState extends State<RegisterScreen> {
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: null, // Disabled for now
+        onPressed: () {
+          // Navigate to HomeAfterLoginScreen
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const HomeAfterLoginScreen()),
+          );
+        },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFFD4845A),
           disabledBackgroundColor: Colors.grey[400],
