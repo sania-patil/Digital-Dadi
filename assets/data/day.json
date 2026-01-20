@@ -1,0 +1,193 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "title": {
+        "hi": "धीरे शुरू करने का दिन",
+        "en": "A Gentle Start"
+      },
+      "tips": {
+        "hi": [
+          "आज सुबह उठते ही जल्दी में कुछ मत करो। बिस्तर पर बैठे-बैठे दो गहरी साँस लो, जैसे शरीर को दिन की खबर दे रही हो।",
+          "खाली पेट बहुत भारी नहीं, लेकिन कुछ सूखा या हल्का ज़रूर लो — नानी कहती थीं, पेट को खाली छोड़ना मन को घबरा देता है।",
+          "दिन में जो भी काम करो, बीच-बीच में रुकना ज़रूरी है — रुकना कमजोरी नहीं, समझदारी है।",
+          "शाम को खिड़की या बालकनी से बाहर देखना, बिना फोन, बिना बात — मन अपने आप हल्का होता है।",
+          "रात को सोते समय तकिये के पास कोई हल्की खुशबू (इलायची, सौंफ या साफ़ कपड़ा) रखो — नींद गहरी आती है।"
+        ],
+        "en": [
+          "When you wake up today, don’t rush. Sit quietly on the bed and take two slow breaths, as if you’re telling your body that the day has begun gently.",
+          "Don’t leave your stomach empty. Something light and dry is enough — elders believed an empty stomach makes the mind uneasy.",
+          "Whatever work you do today, pause in between. Rest is not laziness; it’s how the body stays steady.",
+          "In the evening, look outside from a window or balcony, without your phone. Let the eyes rest; the mind follows.",
+          "At night, keep a soft natural scent near your pillow (cardamom, fennel, or a clean cloth). It helps sleep come quietly."
+        ]
+      },
+      "notification": {
+        "hi": "आज धीरे शुरू करें और खुद से नरमी रखें।",
+        "en": "Start your day gently and be kind to yourself."
+      }
+    },
+    {
+      "day": 2,
+      "title": {
+        "hi": "पेट और मन को संभालने का दिन",
+        "en": "Caring for the Stomach and the Mind"
+      },
+      "tips": {
+        "hi": [
+          "आज खाने को लेकर जल्दबाज़ी मत करो। धीरे-धीरे चबाना भी एक पुराना नुस्खा है।",
+          "पानी पीते समय बैठकर, छोटे घूँट लो — खड़े होकर पीना आज मत करो।",
+          "अगर बिना वजह बेचैनी लगे, तो हथेली पर थोड़ी देर नज़र टिकाकर बैठो — यह मन को स्थिर करता है।",
+          "दोपहर में आँखें बंद करके 10 मिनट लेटना — सोना ज़रूरी नहीं, बस शरीर को रुकने दो।",
+          "रात को दिन भर की बातों को मन में मत दोहराओ — नानी कहती थीं, नींद से पहले मन खाली होना चाहिए।"
+        ],
+        "en": [
+          "Eat slowly today. Chewing calmly is an old home practice, not a habit to skip.",
+          "Drink water while seated, in small sips. Standing and drinking is avoided today.",
+          "If restlessness appears, sit quietly and look at your palm for a moment. This grounding trick has been used for generations.",
+          "In the afternoon, lie down with eyes closed for 10 minutes. Sleeping is optional; stillness is enough.",
+          "Before sleep, don’t replay the whole day in your head. Elders believed the mind should be empty before rest."
+        ]
+      },
+      "notification": {
+        "hi": "आज पेट और मन दोनों को नरमी दें।",
+        "en": "Be gentle with your stomach and your thoughts today."
+      }
+    },
+    {
+      "day": 3,
+      "title": {
+        "hi": "शरीर से दोस्ती का दिन",
+        "en": "Becoming Friends with the Body"
+      },
+      "tips": {
+        "hi": [
+          "सुबह उठकर अपने पेट पर हाथ रखकर एक पल ठहरो — यह अपनापन देने का तरीका है।",
+          "आज ऐसे कपड़े पहनो जो कसते नहीं — शरीर को जगह देना भी देखभाल है।",
+          "अगर थकान आए, तो सीधे लेटने की बजाय बैठकर पीठ को सहारा दो — शरीर जल्दी संभलता है।",
+          "शाम को धीमी चाल में थोड़ी देर टहलना — बिना दूरी गिने, बस चलना ही काफ़ी है।",
+          "सोने से पहले कोई हल्की, शांत बात सुनो — धीमी आवाज़ या जाना-पहचाना स्वर।"
+        ],
+        "en": [
+          "In the morning, place your hand on your belly and pause for a moment. This small gesture builds connection and calm.",
+          "Wear clothes that do not tighten or press. Giving the body space is also care.",
+          "If fatigue comes, sit with your back supported instead of lying flat. The body recovers more gently this way.",
+          "In the evening, walk slowly for a short while, without counting steps or distance.",
+          "Before bed, listen to something soft and familiar — a calm voice, gentle sound, or silence."
+        ]
+      },
+      "notification": {
+        "hi": "आज अपने शरीर से दोस्ती करें।",
+        "en": "Spend today listening to your body with kindness."
+      }
+    },
+    {
+      "day": 4,
+      "title": {
+        "hi": "आराम और भरोसे का दिन",
+        "en": "Rest and Trust"
+      },
+      "tips": {
+        "hi": [
+          "आज खुद से यह मत पूछो — क्या मैं ठीक कर रही हूँ? नानी कहती थीं, शरीर जानता है।",
+          "खाना खाते समय फोन दूर रखो — खाना और शरीर, दोनों को पूरा ध्यान दो।",
+          "पानी पीने के बाद दो पल आँखें बंद करो — यह शरीर को शांति देता है।",
+          "अगर मन भारी लगे, तो कोई पुरानी अच्छी याद सोचो — यह लोक तरीका बहुत काम करता है।",
+          "रात को सोने से पहले भारी बातचीत या बहस मत करो — मन हल्का रखो।"
+        ],
+        "en": [
+          "Today, don’t question yourself with “Am I doing this right?” Elders used to say: the body knows.",
+          "While eating, keep your phone away. Give full attention to food and body.",
+          "After drinking water, close your eyes for a few seconds. It helps the body settle.",
+          "If the heart feels heavy, think of an old, comforting memory. This folk practice works quietly.",
+          "At night, avoid serious talks or arguments. Let the mind rest lightly."
+        ]
+      },
+      "notification": {
+        "hi": "आज आराम और भरोसे को जगह दें।",
+        "en": "Trust your body today and allow rest."
+      }
+    },
+    {
+      "day": 5,
+      "title": {
+        "hi": "ऊर्जा को सहेजने का दिन",
+        "en": "Saving Your Energy"
+      },
+      "tips": {
+        "hi": [
+          "आज सुबह दिन को छोटा समझो — बहुत सारी लिस्ट मत बनाओ।",
+          "काम करते समय बीच-बीच में गर्दन और कंधे ढीले छोड़ो — शरीर सख़्ती नहीं चाहता।",
+          "अगर चक्कर जैसा लगे, तो बैठकर ज़मीन की ओर देखो — जल्दी पानी मत उठाओ।",
+          "शाम को पैर सीधा करके बैठना — यह नानी का बहुत पुराना आराम देने वाला तरीका है।",
+          "रात को मोबाइल जल्दी बंद कर दो — नींद को बुलाने दो।"
+        ],
+        "en": [
+          "Start today thinking of the day as simple and short. Don’t overload yourself with long to-do lists.",
+          "While working, relax your shoulders and neck often. The body does not want stiffness today.",
+          "If you feel dizzy, sit down and look toward the ground instead of immediately reaching for water.",
+          "In the evening, sit with your legs stretched out — an old comfort practice from home.",
+          "At night, turn off your phone early. Let sleep come on its own."
+        ]
+      },
+      "notification": {
+        "hi": "आज अपनी ऊर्जा बचाकर रखें।",
+        "en": "Slow down and save your energy today."
+      }
+    },
+    {
+      "day": 6,
+      "title": {
+        "hi": "मन को हल्का रखने का दिन",
+        "en": "Keeping the Mind Light"
+      },
+      "tips": {
+        "hi": [
+          "आज खुद को अकेला मत रखो — किसी अपने की आवाज़ सुनो, बात कम, एहसास ज़्यादा।",
+          "खाने में एक ही चीज़ बार-बार नहीं — थोड़ा बदलाव मन को अच्छा लगता है।",
+          "पानी पीते समय हर घूँट के बीच रुकना — शरीर को समय देता है।",
+          "अगर रोना आ जाए, तो रोकना मत — नानी कहती थीं, आँसू भी सफ़ाई करते हैं।",
+          "सोने से पहले दिन के लिए खुद को धन्यवाद दो — बस मन में।"
+        ],
+        "en": [
+          "Don’t stay completely alone today. Listen to the voice of someone familiar, even without much conversation.",
+          "In food, avoid eating the same thing again and again. Small changes lift the mood.",
+          "While drinking water, pause between sips. Giving time helps the body adjust.",
+          "If tears come, don’t stop them. Elders believed tears also cleanse the heart.",
+          "Before sleep, thank yourself quietly for the day."
+        ]
+      },
+      "notification": {
+        "hi": "आज मन को हल्का रखें।",
+        "en": "Keep your mind light today."
+      }
+    },
+    {
+      "day": 7,
+      "title": {
+        "hi": "खुद को अपनाने का दिन",
+        "en": "Choosing Self-Acceptance"
+      },
+      "tips": {
+        "hi": [
+          "आज सुबह कोई जल्दी नहीं — जैसे रविवार हो, भले ही दिन कोई भी हो।",
+          "अपने शरीर से कोई शिकायत मत करो — आज सिर्फ़ अपनापन रखो।",
+          "दिन में कम बोलो, ज़्यादा महसूस करो — यह भी देखभाल है।",
+          "शाम को हल्की रोशनी और शांत माहौल रखो — घर को नरम बनाओ।",
+          "रात को सोते समय एक ही बात मन में रखो — मैं ठीक हूँ, मेरा शरीर ठीक है।"
+        ],
+        "en": [
+          "Begin the day without hurry, like a slow Sunday morning — no matter what day it is.",
+          "Don’t complain about your body today. Choose kindness instead.",
+          "Through the day, speak a little less and feel a little more. That too is care.",
+          "In the evening, keep soft lighting and a calm space. Let the home feel gentle.",
+          "At bedtime, keep just one thought: “I am okay. My body is doing its work.”"
+        ]
+      },
+      "notification": {
+        "hi": "आज खुद को अपनाएँ।",
+        "en": "Choose self-acceptance today."
+      }
+    }
+  ]
+}

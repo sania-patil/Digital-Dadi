@@ -1,0 +1,535 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "title": {
+        "hi": "शुरुआत का गुप्त समय",
+        "en": "The Quiet Beginning"
+      },
+        "recipe_hint": {
+    "hi": "मुरमुरा का हल्का नाश्ता",
+    "en": "Puffed Rice Light Snack"
+    },
+      "intro": {
+        "hi": "बिटिया, पहला हफ्ता ऐसा होता है जैसे घर में कोई नई आत्मा आई हो, लेकिन अभी किसी को भनक नहीं लगनी चाहिए। इस हफ्ते शरीर को समझाने की नहीं, बस चुपचाप संभालने की ज़रूरत होती है।",
+        "en": "The first week is treated as a quiet arrival of life. Nothing is rushed, nothing is forced. Traditional care focuses on grounding, warmth, and silence."
+      },
+      "tips": {
+        "hi": [
+          "सुबह उठते ही जल्दी भागना नहीं। पैर ज़मीन पर रखकर एक पल ठहरना — माना जाता है इससे शरीर को स्थिरता मिलती है।",
+          "खाली पेट बहुत कुछ नहीं खाना चाहिए, लेकिन मुरमुरा, सूखा टोस्ट या भुना चना शरीर को गिरने नहीं देता।",
+          "इस हफ्ते जानबूझकर ठंडी चीज़ें नहीं ली जातीं — दादी कहती थीं, शुरुआत में गर्मी शरीर को पकड़ देती है।",
+          "पानी अगर हो सके तो मिट्टी के घड़े या तांबे के बर्तन से पिया जाता था — इसे शरीर को साफ़ रखने वाला माना जाता है।",
+          "अगर बिना वजह घबराहट या उलझन लगे, तो हींग की डिब्बी खोलकर एक गहरी साँस ली जाती थी।",
+          "शाम के समय तेज़ रोशनी, ऊँची आवाज़ और बहस से दूरी रखी जाती थी — शांति से गर्भ मज़बूत होता है।",
+          "चक्कर या कमजोरी लगे तो पानी पीने से पहले बैठकर ज़मीन की ओर देखना और कुछ पल साँस लेना सिखाया जाता था।",
+          "पहले हफ्ते में रोना कमजोरी नहीं माना जाता — दादी कहती थीं, रोने से मन हल्का होता है।",
+          "रात को सोते समय तकिये के पास सौंफ या इलायची रखना नींद को गहरी करने का पुराना विश्वास है।",
+          "डरावनी बातें, बुरी ख़बरें और नकारात्मक लोग जानबूझकर दूर रखे जाते थे — जो सुना, वही असर करता है।"
+        ],
+        "en": [
+          "Standing still for a moment after waking was believed to ground the body.",
+          "Light dry foods like puffed rice, dry toast, or roasted gram were preferred over heavy meals.",
+          "Cold foods were traditionally avoided in the first week, as warmth was believed to help the body settle.",
+          "Water from earthen or copper vessels was considered cleansing for the body.",
+          "Smelling asafoetida (hing) was used to calm nausea and anxiety.",
+          "Quiet evenings with low light and minimal noise were encouraged.",
+          "Sitting and looking toward the ground before drinking water helped with dizziness.",
+          "Emotional release through tears was seen as natural, not weakness.",
+          "Fennel or cardamom kept near the pillow was believed to aid restful sleep.",
+          "Negative news and loud environments were consciously avoided."
+        ]
+      }
+    },
+    {
+      "week": 2,
+      "title": {
+        "hi": "शरीर और मन के नखरे",
+        "en": "The Body Begins to React"
+      },
+       "recipe_hint": {
+  "hi": "सौंफ मिश्री पानी",
+  "en": "Fennel Sugar Water"
+},
+      "intro": {
+        "hi": "बिटिया, दूसरे हफ्ते में शरीर समझ जाता है कि अब मेहमान ठहर गया है। इसीलिए पेट, मन और नाक — तीनों थोड़ा नखरे दिखाने लगते हैं। यह समय दबाने का नहीं, समझाने का होता है।",
+        "en": "In the second week, the body accepts the new life and reacts more strongly. Traditional care focuses on gentleness, smell control, and emotional grounding."
+      },
+      "tips": {
+        "hi": [
+          "सुबह उठते ही अगर जी मिचलाए, तो बिस्तर से सीधे न उठकर करवट बदलकर बैठना सिखाया जाता था।",
+          "इस हफ्ते सौंफ और मिश्री को जेब या पर्स में रखना ज़रूरी माना जाता था — ज़रूरत पड़े तो चबाने के लिए।",
+          "अगर रसोई की बदबू से परेशानी हो, तो रूमाल में हींग बाँधकर पास रखना पुराना घरेलू तरीका है।",
+          "खाली पेट फल खाना इस हफ्ते मना माना जाता था — फल बाद में, पेट पहले संभले।",
+          "पानी इस हफ्ते एकदम खड़े होकर नहीं पिया जाता — बैठकर, छोटे घूँट में।",
+          "अगर मन बिना वजह भारी लगे, तो घर की किसी बुज़ुर्ग महिला की आवाज़ सुनना शुभ माना जाता था।",
+          "काले कपड़े, बहुत तेज़ रंग या डरावनी तस्वीरें जानबूझकर टाली जाती थीं।",
+          "रात को सोते समय बाईं करवट सोना शरीर और पेट दोनों के लिए बेहतर माना जाता था।",
+          "अगर उल्टी के बाद कमजोरी लगे, तो सीधा लेटने के बजाय पैरों को मोड़कर बैठना सिखाया जाता था।"
+        ],
+        "en": [
+          "Rising slowly from bed by turning sideways was believed to reduce nausea.",
+          "Carrying fennel seeds and sugar was a common traditional practice.",
+          "Smelling asafoetida helped counter strong kitchen odors.",
+          "Fruits were avoided on an empty stomach during this week.",
+          "Water was sipped slowly while seated, not while standing.",
+          "Listening to an elder woman’s voice was believed to calm the mind.",
+          "Dark colors and disturbing visuals were traditionally avoided.",
+          "Sleeping on the left side was encouraged for comfort.",
+          "Sitting with knees bent after vomiting helped restore balance."
+        ]
+      }
+    }
+    ,
+{
+  "week": 3,
+  "title": {
+    "hi": "मन हल्का होने और शरीर सीखने का समय",
+    "en": "Emotional Ease and Adjustment"
+  },
+    "recipe_hint": {
+  "hi": "इलायची सौंफ मुँहफ्रेशन",
+  "en": "Cardamom Fennel Mouth Freshener"
+},
+
+   
+  "intro": {
+    "hi": "बिटिया, तीसरे हफ्ते में शरीर थोड़ा-सा आदत डालने लगता है, पर मन अब भी रोज़ नया रंग दिखाता है। कभी बिना वजह हँसी आए, कभी आँसू — इसे रोकने की ज़रूरत नहीं होती।",
+    "en": "By the third week, the body begins to adjust, but emotions may still rise and fall gently. Traditional care focuses on emotional ease and calm presence."
+  },
+  "tips": {
+    "hi": [
+      "सुबह उठते ही अगर मन भारी लगे, तो खिड़की या बालकनी में खड़े होकर आसमान देखना — ऊपर देखने से मन खुलता है।",
+      "मीठी सौंफ या इलायची मुँह में रखकर चबाना सिर्फ़ मिचली के लिए नहीं, बल्कि बेचैनी कम करने के लिए भी किया जाता था।",
+      "अगर बिना वजह रोना आ जाए, तो खुद को समझाने के बजाय चुपचाप रो लेने देना — आँसू मन का बोझ धो देते हैं।",
+      "इस हफ्ते बहुत ज़्यादा अकेले न रहना बेहतर माना जाता था — पास में किसी का होना मन को संभालता है।",
+      "पानी पीते समय हर घूँट के साथ दो गहरी साँस लेना शरीर को शांति देने का पुराना तरीका है।",
+      "शाम ढलते ही तेज़ रोशनी बंद कर देना और हल्की पीली रोशनी रखना मन को स्थिर करता है।",
+      "नींद से पहले तकिये के पास सौंफ या गुलाब की पंखुड़ी रखना कई नानियाँ सिखाती थीं।",
+      "डरावनी कहानी, नकारात्मक खबर या बहस जानबूझकर न सुनना — इसे मन की सफ़ाई माना जाता था।"
+    ],
+    "en": [
+      "Looking at the open sky after waking was believed to ease the mind.",
+      "Chewing fennel or cardamom helped both nausea and restlessness.",
+      "Emotional release through tears was considered cleansing.",
+      "Avoiding loneliness and staying around loved ones was encouraged.",
+      "Slow breathing while sipping water helped calm the body.",
+      "Soft lighting in the evenings was preferred.",
+      "Fennel seeds or rose petals near the pillow were believed to aid sleep.",
+      "Negative conversations and disturbing news were consciously avoided."
+    ]
+  }
+},
+{
+  "week": 4,
+  "title": {
+    "hi": "धीरे-धीरे ठहराव का हफ्ता",
+    "en": "Quiet Settling"
+  },
+    "recipe_hint": {
+  "hi": "पतली मूंग दाल",
+  "en": "Thin Moong Dal"
+},
+  "intro": {
+    "hi": "बिटिया, चौथे हफ्ते में शरीर थोड़ा ठहरना सीख लेता है। बाहर कुछ ज़्यादा न बदले, पर अंदर सब कुछ जमने लगता है। इस हफ्ते ज़्यादा कुछ करने की नहीं, बस संभलकर रहने की ज़रूरत होती है।",
+    "en": "By week four, the body begins to settle quietly. Traditional care emphasizes slow mornings, gentle grounding, and avoiding overexertion."
+  },
+  "tips": {
+    "hi": [
+      "सुबह उठते ही पैर ज़मीन पर रखकर बैठना और आँखें बंद करके दो साँस लेना दिन को धीरे शुरू करने का तरीका था।",
+      "नाभि के आसपास हल्का-सा सरसों का तेल लगाना पेट के भारीपन में किया जाता था — तेज़ मालिश नहीं।",
+      "दिन में थकान आए तो पानी पीने से पहले दो पल बैठना और फिर घूँट-घूँट पीना सिखाया जाता था।",
+      "शाम को दरवाज़े या खिड़की पर थोड़ी देर खड़े रहना अच्छा माना जाता था, लेकिन तेज़ हवा से बचते थे।",
+      "इस हफ्ते नए काम, बहुत सफ़र या भारी सफ़ाई से जानबूझकर बचा जाता था।",
+      "अगर मन अटक जाए, तो माला या दुपट्टा हाथ में पकड़कर बैठना — हाथ व्यस्त, मन हल्का।",
+      "रात को तकिये के पास सौंफ या अजवाइन की हल्की खुशबू रखने की सलाह दी जाती थी।"
+    ],
+    "en": [
+      "Sitting with feet on the ground and breathing calmly after waking grounded the day.",
+      "Gentle mustard oil touch around the navel was used for comfort.",
+      "Resting briefly before drinking water helped manage fatigue.",
+      "Standing near a window for fresh air in the evening was encouraged, avoiding strong wind.",
+      "New heavy tasks and long travel were traditionally avoided.",
+      "Holding prayer beads or a scarf helped calm repetitive thoughts.",
+      "Mild fennel or carom aroma near the pillow was believed to support sleep."
+    ]
+  }
+},
+{
+  "week": 5,
+  "title": {
+    "hi": "नखरों और मिचली का हफ्ता",
+    "en": "Nausea and Sensitivity"
+  },
+  "recipe_hint": {
+  "hi": "सादा दलिया",
+  "en": "Plain Porridge"
+},
+  "intro": {
+    "hi": "पाँचवे हफ्ते में शरीर थोड़ा नखरे दिखाता है। कभी बदबू से जी मिचलाए, कभी मन बिना वजह परेशान हो। नानी कहती थीं — यह समय लड़ने का नहीं, मनाने का है।",
+    "en": "Week five often brings nausea, sensitivity to smells, and emotional irritation. Traditional care focuses on gentleness, patience, and calming the senses."
+  },
+  "tips": {
+    "hi": [
+      "सुबह मिचली लगे तो बिस्तर से सीधे उठने के बजाय करवट बदलकर बैठना पुराना तरीका माना जाता था।",
+      "सौंफ, मिश्री और एक दाना इलायची पास में रखना ज़रूरी माना जाता था।",
+      "रसोई की बदबू परेशान करे तो रूमाल में हींग बाँधकर सूंघना सिखाया जाता था।",
+      "पानी खड़े होकर नहीं, बैठकर छोटे घूँट में पिया जाता था।",
+      "उल्टी के बाद सीधे लेटने के बजाय पैरों को मोड़कर बैठना शरीर को संभालता है।",
+      "तेज़ परफ्यूम, अगरबत्ती या बहुत मसालेदार खुशबू टाली जाती थी।",
+      "शाम को हल्की रोशनी और शांत माहौल रखने की सलाह दी जाती थी।",
+      "गुस्सा आए तो ठंडे पानी से हाथ धोकर थोड़ी देर चुप बैठना नानी का नुस्खा था।"
+    ],
+    "en": [
+      "Rising slowly by turning sideways was believed to reduce nausea.",
+      "Keeping fennel seeds, sugar, and cardamom nearby was common practice.",
+      "Smelling a small amount of asafoetida helped with strong odors.",
+      "Drinking water while seated and in small sips was preferred.",
+      "Sitting with knees bent after vomiting helped restore balance.",
+      "Strong perfumes and incense were avoided.",
+      "Calm lighting and quiet evenings were encouraged.",
+      "Washing hands with cool water and sitting quietly helped ease irritation."
+    ]
+  }
+}
+,
+{
+  "week": 6,
+  "title": {
+    "hi": "कमज़ोरी और भीतर की गर्मी का हफ्ता",
+    "en": "Inner Heat and Outer Fatigue"
+  },
+  "recipe_hint": {
+  "hi": "खजूर वाला दूध",
+  "en": "Dates in Warm Milk"
+},
+  "intro": {
+    "hi": "छठे हफ्ते में शरीर के अंदर गर्मी और बाहर कमजोरी दोनों साथ-साथ चलती हैं। नानी कहती थीं, इस हफ्ते शरीर को ठंडा नहीं, बल्कि संतुलित रखना सीखो।",
+    "en": "Week six is traditionally seen as a phase of inner heat and outer fatigue. Care focuses on balancing warmth rather than cooling the body."
+  },
+  "tips": {
+    "hi": [
+      "सुबह खाली पेट बहुत कमजोरी लगे तो एक खजूर को हल्के गरम दूध में डुबोकर खाना ताक़त के लिए सिखाया जाता था।",
+      "हल्दी वाला दूध रात में नहीं, बल्कि दोपहर की झपकी से पहले आधा कप लिया जाता था ताकि गर्मी सही तरह बैठे।",
+      "खाने में सादा चावल और पतली कढ़ी (बहुत खट्टी नहीं) इस हफ्ते का भरोसेमंद खाना माना जाता था।",
+      "दिन में अचानक पसीना और घबराहट हो तो माथे पर गुलाब जल की दो बूँद लगाना नानी का तरीका था।",
+      "इस हफ्ते पानी मिट्टी के घड़े का नहीं, बल्कि पीतल या स्टील के बर्तन का पिया जाता था।",
+      "बैठते-बैठते चक्कर आए तो नाभि के नीचे हथेली रखकर कुछ पल साँस लेना सिखाया जाता था।",
+      "शाम को बहुत ज़्यादा बोलना या हँसना टाला जाता था — कहा जाता था, शरीर थक जाए तो आवाज़ भी थकती है।"
+    ],
+    "en": [
+      "Dates soaked in warm milk were used for strength.",
+      "Turmeric milk was taken in the afternoon, not at night.",
+      "Simple rice with mild kadhi was considered comforting.",
+      "Rose water on the forehead helped sudden restlessness.",
+      "Brass or steel vessels were preferred for drinking water.",
+      "Placing a hand below the navel with slow breathing eased dizziness.",
+      "Excess talking and laughter were reduced to conserve energy."
+    ]
+  }
+},
+{
+  "week": 7,
+  "title": {
+    "hi": "भारीपन, पेट और धैर्य का हफ्ता",
+    "en": "Heaviness and Patience"
+  },
+  "recipe_hint": {
+  "hi": "गोंद का लड्डू",
+  "en": "Gond Laddoo"
+},
+  "intro": {
+    "hi": "सातवें हफ्ते में पेट थोड़ा भारी और मन थोड़ा अधीर हो जाता है। नानी कहती थीं — यह पेट का नहीं, शरीर के फैलने का संकेत है।",
+    "en": "Week seven is traditionally associated with heaviness and patience. Care focuses on easing the body as it expands."
+  },
+  "tips": {
+    "hi": [
+      "गोंद के लड्डू रोज़ नहीं, बल्कि हफ्ते में सिर्फ़ दो बार छोटे आकार में लिए जाते थे।",
+      "सुबह या दोपहर में सादा दलिया या रागी की पतली खीर शरीर को स्थिर रखने वाला खाना माना जाता था।",
+      "पेट भारी लगे तो सीधे लेटने के बजाय बाईं करवट बैठकर तकिये से सहारा लेना सिखाया जाता था।",
+      "नाभि के चारों ओर घी की बहुत हल्की मालिश उँगली से की जाती थी — दबाव नहीं।",
+      "पानी एक बार में ज़्यादा नहीं, बल्कि थोड़ी देर में थोड़ा-थोड़ा पिया जाता था।",
+      "शाम को गुनगुने पानी में पैरों को डुबोकर बैठना पेट और मन दोनों को हल्का करता माना जाता था।",
+      "बहुत खट्टा दही, छाछ या अचार इस हफ्ते जानबूझकर टाले जाते थे।"
+    ],
+    "en": [
+      "Gond laddoos were taken only twice a week in small portions.",
+      "Thin porridge or ragi kheer was considered stabilizing.",
+      "Sitting supported on the left side helped heaviness.",
+      "Gentle ghee touch around the navel was practiced.",
+      "Water was sipped slowly, not in large quantities.",
+      "Warm foot soaks in the evening were believed to calm digestion.",
+      "Sour curd and pickles were avoided."
+    ]
+  }
+},
+{
+  "week": 8,
+  "title": {
+    "hi": "मन और शरीर के बीच तालमेल का हफ्ता",
+    "en": "Listening to the Body"
+  },
+  "recipe_hint": {
+  "hi": "घी वाली मूंग दाल",
+  "en": "Ghee Moong Dal"
+},
+  "intro": {
+    "hi": "आठवें हफ्ते में शरीर रोज़ नए ढंग से काम करता है। कभी ठीक लगेगा, कभी बिना वजह थकान आएगी। नानी कहती थीं — अब शरीर को सुनना शुरू करो।",
+    "en": "By week eight, the body begins asking for attention in subtle ways. Traditional care focuses on listening, not forcing."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते सुबह भीगे हुए 4–5 बादाम छिलका उतारकर खाना दिमाग़ और ताक़त के लिए अच्छा माना जाता था।",
+      "खाने में सादा चावल और थोड़ी-सी घी वाली मूंग दाल शांत खाना माना जाता था।",
+      "मन बेचैन रहे तो माथे पर उँगली से थोड़ा-सा देसी घी लगाना ठंडक देने वाला माना जाता था।",
+      "बहुत देर खाली पेट रहने से बचा जाता था — थोड़ा खाओ, पर समय पर।",
+      "पानी पीते समय गिलास नीचे रखकर दो पल रुकना और फिर अगला घूँट लेना सिखाया जाता था।",
+      "शाम को धीमी चाल से 5–10 मिनट टहलना भारीपन कम करता माना जाता था।",
+      "रात में बहुत गरम दूध नहीं, बल्कि सादा गुनगुना दूध नींद के लिए ठीक समझा जाता था।"
+    ],
+    "en": [
+      "Soaked and peeled almonds were used for mental strength.",
+      "Simple rice with mild ghee-moong dal was considered calming.",
+      "A small touch of desi ghee on the forehead was believed to cool the mind.",
+      "Long gaps without food were avoided.",
+      "Pausing between sips of water supported digestion.",
+      "Slow evening walks eased heaviness.",
+      "Lukewarm milk was preferred at night."
+    ]
+  }
+}
+,
+{
+  "week": 9,
+  "title": {
+    "hi": "थोड़ा फैलाव और थोड़ा धैर्य",
+    "en": "Gentle Expansion and Patience"
+  },"recipe_hint": {
+  "hi": "रागी की पतली रोटी",
+  "en": "Thin Ragi Roti"
+},
+  "intro": {
+    "hi": "नौवें हफ्ते में शरीर धीरे-धीरे फैलना शुरू करता है। नानी कहती थीं — अब कसकर नहीं, आराम से रहने का समय है।",
+    "en": "Week nine is traditionally associated with gentle expansion and patience."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते रागी की पतली रोटी या दलिया पसंद किया जाता था, क्योंकि यह पेट को बाँधता नहीं।",
+      "कमर या पेट के निचले हिस्से में खिंचाव लगे तो नहाने के बाद हल्का तिल का तेल लगाना पुराना घरेलू तरीका है।",
+      "खाने के बाद सीधे लेटने की बजाय दाईं करवट बैठना सिखाया जाता था ताकि पेट पर ज़ोर न पड़े।",
+      "बहुत टाइट कपड़े या पेट को दबाने वाली ड्रेसेस इस हफ्ते सख़्ती से मना की जाती थीं।",
+      "पानी दिन भर थोड़ा-थोड़ा पिया जाता था, लेकिन शाम के बाद बहुत ज़्यादा नहीं।",
+      "मन भारी लगे तो पुराने भजन या धीमे लोकगीत सुनना मन को स्थिर करता माना जाता था।",
+      "बहुत तेज़ मसाले या तली चीज़ें जानबूझकर कम की जाती थीं।"
+    ],
+    "en": [
+      "Ragi roti or thin porridge was considered easy on the body.",
+      "Sesame oil massage after bathing eased stretching discomfort.",
+      "Sitting on the right side after meals reduced pressure.",
+      "Tight clothing was avoided.",
+      "Water intake was spaced through the day.",
+      "Soft devotional or folk music was believed to calm the mind.",
+      "Spicy and fried foods were reduced."
+    ]
+  }
+},
+{
+  "week": 10,
+  "title": {
+    "hi": "स्थिरता और भरोसे का हफ्ता",
+    "en": "Stability and Trust"
+  },"recipe_hint": {
+  "hi": "हल्की पंजीरी",
+  "en": "Light Panjiri"
+}
+,
+  "intro": {
+    "hi": "दसवें हफ्ते में नानी कहती थीं — अब शरीर को भरोसा दो। डर कम और अपनापन ज़्यादा रखो।",
+    "en": "Week ten is associated with emotional steadiness and trust in the body."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते गोंद के लड्डू नहीं, बल्कि हल्का पंजीरी का छोटा हिस्सा ताक़त के लिए दिया जाता था।",
+      "सुबह उठकर खिड़की से आती धूप में 2–3 मिनट खड़े रहना शरीर और मन दोनों के लिए अच्छा माना जाता था।",
+      "दिन में सुस्ती लगे तो सीधे लेटने की बजाय पीठ को सहारा देकर बैठना सिखाया जाता था।",
+      "खाने में घर का बना सादा खाना रखा जाता था, लेकिन हर बार थोड़ा बदलकर।",
+      "बहुत देर तक मोबाइल या स्क्रीन देखना इस हफ्ते जानबूझकर मना किया जाता था।",
+      "रात को बाईं करवट सोना और घुटनों के बीच तकिया रखना आराम के लिए पुरानी सलाह है।"
+    ],
+    "en": [
+      "A small portion of panjiri was traditionally used for strength.",
+      "Standing briefly in morning sunlight was encouraged.",
+      "Supported sitting was preferred over lying down during fatigue.",
+      "Home-cooked food with gentle variety was valued.",
+      "Screen exposure was reduced.",
+      "Sleeping on the left side with knee support aided comfort."
+    ]
+  }
+},
+{
+  "week": 11,
+  "title": {
+    "hi": "शरीर का भरोसा लौटने का हफ्ता",
+    "en": "Regaining Body Confidence"
+  },
+  "recipe_hint": {
+  "hi": "भीगे मखाने",
+  "en": "Soaked Fox Nuts"
+},
+  "intro": {
+    "hi": "ग्यारहवें हफ्ते में शरीर जैसे कहने लगता है — अब डर कम करो, मैं संभाल लूँगा।",
+    "en": "Week eleven is traditionally seen as a phase where the body begins to regain confidence."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते सुबह भीगी हुई मखाने की एक छोटी कटोरी ताक़त और पेट की शांति के लिए दी जाती थी।",
+      "खाने में सादा सब्ज़ी और बाजरे की नरम रोटी शरीर को धीरे-धीरे ताक़त देती मानी जाती थी।",
+      "सीने में हल्का भारीपन लगे तो पीठ सीधी रखकर बैठना और कुर्सी की पीठ से सहारा लेना सिखाया जाता था।",
+      "पानी पीते समय हर तीसरे घूँट पर रुकना पेट को समझाने का लोक तरीका था।",
+      "नहाने के बाद सिर गीला नहीं छोड़ना इस हफ्ते बहुत ज़रूरी माना जाता था।",
+      "शाम को खुले आँगन या खिड़की के पास हल्की हवा लेना अच्छा माना जाता था, लेकिन तेज़ हवा से बचते थे।"
+    ],
+    "en": [
+      "Soaked fox nuts were used for gentle strength.",
+      "Soft bajra roti with vegetables was preferred.",
+      "Upright sitting eased chest heaviness.",
+      "Pausing between water sips aided digestion.",
+      "Hair was dried after bathing.",
+      "Gentle fresh air without strong wind was encouraged."
+    ]
+  }
+}
+,
+{
+  "week": 12,
+  "title": {
+    "hi": "हल्कापन लौटने का हफ्ता",
+    "en": "Returning Lightness"
+  },"recipe_hint": {
+  "hi": "पतली चावल की खीर",
+  "en": "Thin Rice Kheer"
+},
+  "intro": {
+    "hi": "बारहवें हफ्ते में मन और पेट दोनों थोड़ा हल्का होने लगते हैं। नानी कहती थीं — अब संभलकर, पर खुलकर साँस लो।",
+    "en": "Week twelve is associated with a sense of lightness and emotional ease."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते चावल की पतली खीर बहुत कम मीठी बनाकर खाई जाती थी।",
+      "सुबह हथेलियों को रगड़कर आँखों पर रखना आँखों और मन को शांत करने का तरीका था।",
+      "दिन में सुस्ती आए तो नींबू की छाल को उँगलियों में मसलकर सूंघना लोक तरीका माना जाता था।",
+      "खाने के बाद पैर ज़मीन पर रखकर सीधे बैठना सिखाया जाता था।",
+      "बहुत ज़्यादा उपवास या देर से खाना इस हफ्ते जानबूझकर नहीं किया जाता था।",
+      "शाम को हल्की हँसी-मज़ाक या किसी अपने से बात करना मन को खोलने वाला माना जाता था।"
+    ],
+    "en": [
+      "Thin rice kheer with minimal sweetness was traditionally favored.",
+      "Rubbing palms and resting them over the eyes calmed the senses.",
+      "Smelling lemon peel refreshed the mind.",
+      "Upright sitting after meals was encouraged.",
+      "Long fasting or delayed meals were avoided.",
+      "Gentle laughter and conversation were valued."
+    ]
+  }
+},
+{
+  "week": 13,
+  "title": {
+    "hi": "नया संतुलन बनने का हफ्ता",
+    "en": "Finding Balance"
+  },"recipe_hint": {
+  "hi": "ज्वार की नरम रोटी",
+  "en": "Soft Jowar Roti"
+},
+  "intro": {
+    "hi": "तेरहवें हफ्ते में शरीर अपना नया संतुलन ढूँढ लेता है। नानी कहती थीं — अब ज़्यादा नहीं, ठीक-ठाक सब कुछ।",
+    "en": "Week thirteen is traditionally linked with balance and moderation."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते सादा सब्ज़ी और ज्वार की रोटी पेट को स्थिर रखने वाली मानी जाती थी।",
+      "गर्दन या कंधे भारी लगें तो नहाने के बाद तिल के तेल की हल्की थपकी दी जाती थी।",
+      "पानी न बहुत ठंडा और न बहुत गरम — सामान्य तापमान का पीने की सलाह थी।",
+      "बहुत देर एक ही जगह बैठना नानी मना करती थीं।",
+      "शाम को धीमी चाल में घर के अंदर टहलना बेहतर माना जाता था।",
+      "मन बेचैन हो तो पुरानी फोटो या बचपन की यादें देखना सुकून देता माना जाता था।"
+    ],
+    "en": [
+      "Jowar roti with vegetables was preferred.",
+      "Gentle sesame oil patting eased shoulder heaviness.",
+      "Normal-temperature water was advised.",
+      "Prolonged sitting was discouraged.",
+      "Slow indoor walking was encouraged.",
+      "Nostalgic memories were believed to calm the mind."
+    ]
+  }
+},
+{
+  "week": 14,
+  "title": {
+    "hi": "शरीर को फैलने की इजाज़त",
+    "en": "Allowing Expansion"
+  },"recipe_hint": {
+  "hi": "घी लगी नरम रोटी",
+  "en": "Ghee Soft Roti"
+},
+  "intro": {
+    "hi": "चौदहवें हफ्ते में नानी कहती थीं — अब शरीर को जगह दो, कसकर मत रखो।",
+    "en": "Week fourteen focuses on allowing the body space and comfort."
+  },
+  "tips": {
+    "hi": [
+      "ढीले और आरामदायक कपड़े पहनना इस हफ्ते बहुत ज़रूरी माना जाता था।",
+      "घी लगी नरम रोटी और सब्ज़ी शरीर को फैलने में मददगार समझी जाती थी।",
+      "पेट में खिंचाव लगे तो नहाने के बाद हल्का नारियल तेल लगाना लोक तरीका था।",
+      "पानी पीते समय चलते-चलते नहीं, रुककर पीने की आदत डलवाई जाती थी।",
+      "बहुत देर तक झुककर काम करना नानी सख़्ती से मना करती थीं।",
+      "शाम को पैर सीधा करके बैठना आराम के लिए बताया जाता था।"
+    ],
+    "en": [
+      "Loose clothing was encouraged.",
+      "Soft roti with ghee supported expansion.",
+      "Coconut oil eased skin stretching.",
+      "Water was consumed while stationary.",
+      "Bending work was avoided.",
+      "Legs were kept straight while resting."
+    ]
+  }
+},
+{
+  "week": 15,
+  "title": {
+    "hi": "शांत आत्मविश्वास का हफ्ता",
+    "en": "Quiet Confidence"
+  },"recipe_hint": {
+  "hi": "घर की हल्की पंजीरी",
+  "en": "Home-style Light Panjiri"
+},
+  "intro": {
+    "hi": "पंद्रहवें हफ्ते में शरीर धीरे-धीरे भरोसे में आ जाता है। नानी कहती थीं — अब घबराहट नहीं, अपनापन रखो।",
+    "en": "Week fifteen represents quiet confidence and emotional grounding."
+  },
+  "tips": {
+    "hi": [
+      "इस हफ्ते हल्की पंजीरी का छोटा हिस्सा हफ्ते में एक-दो बार दिया जाता था।",
+      "सुबह दोनों हाथ पेट पर रखकर दो गहरी साँस लेना शरीर से जुड़ने का तरीका था।",
+      "थकान आए तो सीधे लेटने की बजाय करवट लेकर बैठना बेहतर माना जाता था।",
+      "बहुत ज़्यादा लोगों से एक साथ मिलना जानबूझकर कम किया जाता था।",
+      "शाम को धीमी आवाज़ में लोकगीत या भजन मन को स्थिर रखते थे।",
+      "रात को सोने से पहले भारी बातचीत से बचने की सलाह दी जाती थी।"
+    ],
+    "en": [
+      "Small portions of panjiri were traditionally used.",
+      "Deep breathing with hands on the belly strengthened connection.",
+      "Side-sitting was preferred during fatigue.",
+      "Social overload was avoided.",
+      "Soft folk or devotional music supported calmness.",
+      "Heavy conversations before sleep were avoided."
+    ]
+  }
+}
+
+
+    
+  ]
+}

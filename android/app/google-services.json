@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "671557894141",
+    "project_id": "digital-dadi",
+    "storage_bucket": "digital-dadi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671557894141:android:8ab97f6a8ca8b1fefc2394",
+        "android_client_info": {
+          "package_name": "com.example.digitaldadi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqQSfLfrFYF2Vi_sir7kPx41Hj3AgKhQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
