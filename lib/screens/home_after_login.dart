@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'week_tips_screen.dart';
-import 'emergency_screen.dart';
+import 'emergency.dart';
 
 class HomeAfterLoginScreen extends StatelessWidget {
   const HomeAfterLoginScreen({Key? key}) : super(key: key);
@@ -53,9 +53,7 @@ class HomeAfterLoginScreen extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
- //added emergency button
+      //added emergency button
   floatingActionButton: FloatingActionButton(
     backgroundColor: Colors.red,
     child: const Icon(Icons.call, color: Colors.white),
@@ -69,6 +67,8 @@ class HomeAfterLoginScreen extends StatelessWidget {
     },
   ),
 );
+}
+ 
   /// Build the care stage summary card
   Widget _buildCareStageCard(BuildContext context) {
     // Mock data
