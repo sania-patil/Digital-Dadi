@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../services/emergency_service.dart';
 
 class EmergencyScreen extends StatelessWidget {
 
-  Future<void> _makeCall(String number) async {
+  Future<void> _callNumber(String number,String type) async {
+    await EmergencyService.logEmergency(type);
     final Uri uri = Uri.parse("tel:$number");
-    if (!await launchUrl(uri)) {
-      throw 'Could not call $number';
-    }
+    await launchUrl(uri);
   }
 
   @override
@@ -19,18 +19,18 @@ class EmergencyScreen extends StatelessWidget {
         children: [
 
           ElevatedButton(
-            onPressed: () => _makeCall("108"),
-            child: Text("Call 108 Ambulance"),
+            onPressed: () => _callNumber("108",'ambulance'),
+            child: const Text("Call 108 Ambulance"),
           ),
 
           ElevatedButton(
-            onPressed: () => _makeCall("9876543210"),
-            child: Text("Call Doctor"),
+            onPressed: () => _callNumber("9876543210",'doctor'),
+            child: const Text("Call Doctor"),
           ),
 
           ElevatedButton(
-            onPressed: () => _makeCall("9123456789"),
-            child: Text("Call Family"),
+            onPressed: () => _callNumber("9123456789",'family'),
+            child: const Text("Call Family"),
           ),
 
         ],

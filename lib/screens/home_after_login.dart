@@ -53,7 +53,11 @@ class HomeAfterLoginScreen extends StatelessWidget {
           ),
         ),
       ),
+<<<<<<< Updated upstream
       //added emergency button
+=======
+       //added emergency button
+>>>>>>> Stashed changes
   floatingActionButton: FloatingActionButton(
     backgroundColor: Colors.red,
     child: const Icon(Icons.call, color: Colors.white),
@@ -61,14 +65,19 @@ class HomeAfterLoginScreen extends StatelessWidget {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => const EmergencyScreen(),
+          builder: (context) => EmergencyScreen(),
         ),
       );
     },
   ),
 );
+<<<<<<< Updated upstream
 }
  
+=======
+  }
+
+>>>>>>> Stashed changes
   /// Build the care stage summary card
   Widget _buildCareStageCard(BuildContext context) {
     // Mock data
