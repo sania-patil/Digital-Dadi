@@ -11,7 +11,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
   // Form state
   final TextEditingController _motherNameController = TextEditingController();
   String _selectedCareStage = 'pregnancy'; // 'pregnancy' or 'postpartum'
-  String _selectedLanguage = 'English'; // 'hindi' or 'English'
+  String _selectedLanguage = 'hindi'; // 'hindi' or 'english'
+  
+  // Conditional fields based on care stage
+  int? _pregnancyMonth; // 1-9
+  int? _babyAgeWeeks; // 1-52
+  String _deliveryType = 'normal'; // 'normal' or 'csection'
 
   @override
   void dispose() {
@@ -234,27 +239,227 @@ class _RegisterScreenState extends State<RegisterScreen> {
           children: [
             _buildStepNumber('3', 'Additional Information'),
             const SizedBox(height: 14),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: Colors.grey[100],
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: Colors.grey[300]!, width: 1),
-              ),
-              child: Center(
-                child: Text(
-                  'Content will appear based on\nyour care stage selection',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.grey[500],
-                    fontSize: 14,
-                  ),
-                ),
-              ),
-            ),
+            _selectedCareStage == 'pregnancy'
+                ? _buildPregnancySection()
+                : _buildPostpartumSection(),
           ],
         ),
+      ),
+    );
+  }
+
+  Widget _buildPregnancySection() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Which month of pregnancy are you in?',
+          style: const TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF333333),
+          ),
+        ),
+        const SizedBox(height: 10),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: Colors.grey[300]!,
+              width: 1,
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: DropdownButton<int>(
+            value: _pregnancyMonth,
+            hint: const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 12),
+              child: Text('Select pregnancy month (1-9)'),
+            ),
+            isExpanded: true,
+            underline: const SizedBox(),
+            items: List.generate(9, (index) {
+              int month = index + 1;
+              return DropdownMenuItem<int>(
+                value: month,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Text(
+                    'Month $month',
+                    style: const TextStyle(fontSize: 16),
+                  ),
+                ),
+              );
+            }),
+            onChanged: (value) {
+              setState(() {
+                _pregnancyMonth = value;
+              });
+            },
+          ),
+        ),
+        if (_pregnancyMonth != null) ...[
+          const SizedBox(height: 12),
+          Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: const Color(0xFFFCE7D9),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(
+                color: const Color(0xFFD4845A),
+                width: 1,
+              ),
+            ),
+            child: Text(
+              'You\'re in Month $_pregnancyMonth of your pregnancy journey. We\'ll provide personalized care tips for this stage.',
+              style: const TextStyle(
+                fontSize: 13,
+                color: Color(0xFF333333),
+                height: 1.4,
+              ),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildPostpartumSection() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'How many weeks old is your baby?',
+          style: const TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF333333),
+          ),
+        ),
+        const SizedBox(height: 10),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: Colors.grey[300]!,
+              width: 1,
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: DropdownButton<int>(
+            value: _babyAgeWeeks,
+            hint: const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 12),
+              child: Text('Select baby\'s age in weeks (1-52)'),
+            ),
+            isExpanded: true,
+            underline: const SizedBox(),
+            items: List.generate(52, (index) {
+              int weeks = index + 1;
+              return DropdownMenuItem<int>(
+                value: weeks,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Text(
+                    'Week $weeks',
+                    style: const TextStyle(fontSize: 16),
+                  ),
+                ),
+              );
+            }),
+            onChanged: (value) {
+              setState(() {
+                _babyAgeWeeks = value;
+              });
+            },
+          ),
+        ),
+        const SizedBox(height: 16),
+        Text(
+          'How was your delivery?',
+          style: const TextStyle(
+            fontSize: 14,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF333333),
+          ),
+        ),
+        const SizedBox(height: 10),
+        _buildDeliveryTypeOption(
+          value: 'normal',
+          label: 'Normal Delivery',
+          groupValue: _deliveryType,
+          onChanged: (value) {
+            setState(() {
+              _deliveryType = value!;
+            });
+          },
+        ),
+        const SizedBox(height: 12),
+        _buildDeliveryTypeOption(
+          value: 'csection',
+          label: 'C-Section',
+          groupValue: _deliveryType,
+          onChanged: (value) {
+            setState(() {
+              _deliveryType = value!;
+            });
+          },
+        ),
+        if (_babyAgeWeeks != null) ...[
+          const SizedBox(height: 12),
+          Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: const Color(0xFFFCE7D9),
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(
+                color: const Color(0xFFD4845A),
+                width: 1,
+              ),
+            ),
+            child: Text(
+              'Your baby is $_babyAgeWeeks week${_babyAgeWeeks == 1 ? '' : 's'} old. We\'ll provide post-delivery guidance tailored to your recovery stage and delivery type.',
+              style: const TextStyle(
+                fontSize: 13,
+                color: Color(0xFF333333),
+                height: 1.4,
+              ),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _buildDeliveryTypeOption({
+    required String value,
+    required String label,
+    required String groupValue,
+    required ValueChanged<String?> onChanged,
+  }) {
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: groupValue == value ? const Color(0xFFD4845A) : Colors.grey[300]!,
+          width: groupValue == value ? 2 : 1,
+        ),
+        borderRadius: BorderRadius.circular(8),
+        color: groupValue == value
+            ? const Color(0xFFFCE7D9)
+            : Colors.transparent,
+      ),
+      child: RadioListTile<String>(
+        value: value,
+        groupValue: groupValue,
+        onChanged: onChanged,
+        title: Text(
+          label,
+          style: const TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+            color: Color(0xFF333333),
+          ),
+        ),
+        activeColor: const Color(0xFFD4845A),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 8),
       ),
     );
   }
