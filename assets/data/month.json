@@ -1,0 +1,107 @@
+{
+  "months": [
+    {
+      "month": 1,
+      "title": {
+        "hi": "पहला महीना – शरीर की शुरुआत",
+        "en": "Month One – The Beginning Phase"
+      },
+      "description": {
+        "hi": "बिटिया, पहला महीना बहुत नाज़ुक होता है। इस समय शरीर को खुद भी समझ नहीं आता कि क्या हो रहा है। थकान ज़्यादा लगना, नींद आना और मन भारी रहना आम बात है। इस महीने ज़्यादा भागदौड़ मत करो। सुबह उठते ही खाली पेट मत रहो, चाहे दो बिस्कुट ही क्यों न हों। ठंडा पानी, बहुत मसालेदार या बाहर का खाना अभी मत लो। गुनगुना पानी पीना, सादा घर का खाना खाना और समय पर आराम करना सबसे बड़ा नुस्खा है। शरीर को डराने की ज़रूरत नहीं, उसे संभालने की ज़रूरत है।",
+        "en": "The first month of pregnancy is very delicate. During this phase, the body is adjusting internally, which can cause fatigue, sleepiness, and emotional heaviness. Avoid overexertion during this time. Do not stay hungry in the morning, even light food helps. Warm water, simple home-cooked meals, and adequate rest are essential. This month is about allowing the body to settle into the new change with care and patience."
+      }
+    }
+    ,
+{
+  "month": 2,
+  "title": {
+    "hi": "दूसरा महीना – जी मिचलाने का समय",
+    "en": "Month Two – The Phase of Nausea"
+  },
+  "description": {
+    "hi": "बिटिया, दूसरे महीने में उल्टी, जी मिचलाना और गंध से परेशानी शुरू हो सकती है। घबराने की कोई बात नहीं — ये सब शरीर के अंदर हो रहे बदलाव की निशानी है। सुबह उठते ही सौंफ और मिश्री चबाना पुराना आज़माया हुआ नुस्खा है। थोड़ा-थोड़ा खाओ, एक साथ ज़्यादा मत खाओ। बहुत तला-भुना, खट्टा और पैकेट वाला खाना अभी ठीक नहीं रहता। अगर मन भारी लगे तो चुप मत रहो, किसी अपने से बात करो। इस महीने आराम को सबसे ऊपर रखो।",
+    "en": "During the second month, nausea, vomiting, and sensitivity to smells are common. These symptoms indicate internal hormonal changes. Eating small meals frequently, avoiding heavy or spicy foods, and using traditional remedies like fennel seeds can help. Emotional support and adequate rest are especially important during this phase."
+  }
+}
+,
+{
+  "month": 3,
+  "title": {
+    "hi": "तीसरा महीना – स्थिरता की शुरुआत",
+    "en": "Month Three – Beginning of Stability"
+  },
+  "description": {
+    "hi": "अब शरीर थोड़ा संभलने लगता है बिटिया, लेकिन थकान अभी भी रह सकती है। इस समय मन कभी खुश, कभी उदास हो सकता है। सादा भोजन जैसे मूंग दाल, खिचड़ी और उबली सब्ज़ियाँ पेट को आराम देती हैं। बहुत ज़्यादा मीठा या बाहर का खाना अभी टालो। हल्की मालिश के लिए नारियल तेल या तिल का तेल लगाया जा सकता है। इस महीने शरीर को मज़बूत नींव मिलती है, इसलिए आराम में कंजूसी मत करना।",
+    "en": "By the third month, the body starts stabilizing, though fatigue and mood changes may still occur. Light, easily digestible food and gentle oil massage help support the body. This phase builds the foundation for the baby’s growth, so rest and nourishment remain key."
+  }
+},
+{
+  "month": 4,
+  "title": {
+    "hi": "चौथा महीना – ऊर्जा लौटने लगती है",
+    "en": "Month Four – Energy Begins to Return"
+  },
+  "description": {
+    "hi": "चौथे महीने में ज़्यादातर महिलाओं को थोड़ी ताक़त वापस महसूस होती है। भूख बढ़ना और वजन बढ़ना स्वाभाविक है। इस समय घर का बना खाना, थोड़ी घी वाली रोटी और हरी सब्ज़ियाँ शरीर को ताक़त देती हैं। बहुत देर खड़े रहना या झुककर काम करना ठीक नहीं। त्वचा में खिंचाव या खुजली हो सकती है, इसके लिए बादाम या नारियल तेल से हल्की मालिश लाभकारी होती है।",
+    "en": "In the fourth month, energy levels often improve. Appetite increases and gradual weight gain is normal. Balanced home-cooked meals and gentle care help support the body as it grows stronger."
+  }
+},
+{
+  "month": 5,
+  "title": {
+    "hi": "पाँचवां महीना – शरीर का फैलाव",
+    "en": "Month Five – Body Expansion"
+  },
+  "description": {
+    "hi": "पाँचवें महीने में शरीर बाहर से भी बदलने लगता है बिटिया। कमर दर्द और पैरों में खिंचाव महसूस हो सकता है। ज़्यादा देर एक ही स्थिति में बैठना या खड़ा रहना ठीक नहीं। थोड़ी-थोड़ी देर में करवट बदलो। खाने में बहुत भारी चीज़ें मत लो। सादा, पोषण वाला खाना और पर्याप्त पानी इस समय सबसे बड़ा सहारा है।",
+    "en": "In the fifth month, body expansion becomes more noticeable. Mild back and leg discomfort may appear. Proper posture, light movement, nourishing meals, and adequate hydration help maintain comfort."
+  }
+},
+{
+  "month": 6,
+  "title": {
+    "hi": "छठा महीना – संतुलन का समय",
+    "en": "Month Six – Finding Balance"
+  },
+  "description": {
+    "hi": "छठे महीने में शरीर और बच्चा दोनों अपने-अपने काम में लगे होते हैं। कभी बहुत ऊर्जा लगती है, कभी थकान। इस समय अपने शरीर की सुनो। ज़्यादा थकान हो तो आराम करो। चिंता और तुलना से दूर रहो — हर शरीर की गति अलग होती है। शांति और भरोसा इस महीने का सबसे बड़ा नुस्खा है।",
+    "en": "By the sixth month, the body finds a rhythm between energy and rest. Listening to bodily signals, avoiding comparison, and maintaining emotional calm are essential during this phase."
+  }
+}
+,
+{
+  "month": 7,
+  "title": {
+    "hi": "सातवाँ महीना – भारीपन और सावधानी",
+    "en": "Month Seven – Heaviness and Caution"
+  },
+  "description": {
+    "hi": "बिटिया, सातवें महीने से शरीर में भारीपन साफ़ महसूस होने लगता है। जल्दी थकान आना, कमर में दर्द और पैरों में सूजन होना आम बात है। इस समय ज़्यादा देर खड़े रहना या सीढ़ियाँ चढ़ना ठीक नहीं होता। करवट लेकर सोना सबसे आरामदायक रहता है, खासकर बाईं करवट। खाने में बहुत ज़्यादा नमक और तला-भुना कम रखना चाहिए, नहीं तो सूजन बढ़ सकती है। पैरों को दिन में थोड़ी देर ऊँचा रखकर आराम देना बहुत पुराना और असरदार नुस्खा है। याद रखो बिटिया, इस समय आराम कोई आलस नहीं, बल्कि ज़रूरत है।",
+    "en": "By the seventh month, the body starts feeling heavier. Fatigue, back pain, and swelling in the legs are common. Avoid standing for long periods and prefer resting on your side, especially the left side. Reducing salty and fried food, elevating the legs while resting, and prioritizing comfort help manage this phase effectively."
+  }
+},
+{
+  "month": 8,
+  "title": {
+    "hi": "आठवाँ महीना – बेचैनी और तैयारी",
+    "en": "Month Eight – Restlessness and Preparation"
+  },
+  "description": {
+    "hi": "आठवें महीने में बिटिया, शरीर के साथ-साथ मन भी थोड़ा बेचैन हो सकता है। नींद पूरी न होना, बार-बार करवट बदलना और छोटी-छोटी बातों पर चिंता होना सामान्य है। इस समय पेट पर दबाव बढ़ जाता है, इसलिए बहुत ज़्यादा एक साथ खाना ठीक नहीं रहता। हल्का और जल्दी पचने वाला भोजन बेहतर होता है। गहरी साँस लेना, शांत रहना और डर को मन में न पालना बहुत ज़रूरी है। शरीर जानता है कि उसे कब और कैसे काम करना है। खुद पर भरोसा रखो, यह समय भी धीरे-धीरे निकल जाता है।",
+    "en": "During the eighth month, physical discomfort and emotional restlessness may increase. Sleep disturbances and anxiety are common. Eating light meals, practicing calm breathing, and avoiding overthinking help maintain balance. Trusting the body’s natural rhythm is important during this preparatory phase."
+  }
+},
+{
+  "month": 9,
+  "title": {
+    "hi": "नौवाँ महीना – प्रसव से पहले का समय",
+    "en": "Month Nine – The Time Before Delivery"
+  },
+  "description": {
+    "hi": "नौवाँ महीना आते-आते शरीर पूरी तरह प्रसव की तैयारी में लग जाता है बिटिया। पेट का भारी होना, चलने में दिक्कत और नींद कम आना सामान्य है। इस समय अकेले बाहर निकलना या ज़्यादा थकाने वाला काम नहीं करना चाहिए। पास में किसी अपने का होना अच्छा रहता है। डर और घबराहट आना स्वाभाविक है, लेकिन याद रखो — शरीर ने नौ महीने मेहनत की है और वह आगे का रास्ता भी जानता है। शांति, भरोसा और धैर्य — यही इस महीने का सबसे बड़ा नुस्खा है।",
+    "en": "By the ninth month, the body fully prepares for delivery. Heaviness, limited mobility, and reduced sleep are normal. Avoid exertion, stay supported, and maintain emotional calm. Trust, patience, and reassurance are key as the body completes its natural journey."
+  }
+}
+
+  ]
+}
