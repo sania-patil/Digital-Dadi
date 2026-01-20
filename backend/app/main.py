@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI,Form
 from datetime import datetime
 app = FastAPI(title="Digital Dadi Backend")
 
@@ -7,9 +7,15 @@ def root():
     return {"message": "Digital Dadi backend running"}
 
 @app.post("/emergency-log")
-def log_emergency(user_id: str, type: str):
+def log_emergency(
+    user_id: str = Form(...),
+    type: str = Form(...)
+):
+    print("POST /emergency-log")
+    print(f"user_id={user_id} type={type}")
     return {
-        "user": user_id,
+        "status": "logged",
+        "user_id": user_id,
         "type": type,
-        "time": datetime.now()
+        "time": datetime.now().isoformat()
     }
