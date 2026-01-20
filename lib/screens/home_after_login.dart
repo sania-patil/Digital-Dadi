@@ -53,11 +53,7 @@ class HomeAfterLoginScreen extends StatelessWidget {
           ),
         ),
       ),
-<<<<<<< Updated upstream
-      //added emergency button
-=======
-       //added emergency button
->>>>>>> Stashed changes
+
   floatingActionButton: FloatingActionButton(
     backgroundColor: Colors.red,
     child: const Icon(Icons.call, color: Colors.white),
