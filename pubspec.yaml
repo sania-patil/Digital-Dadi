@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  url_launcher: ^6.2.5
 
   # UI & fonts
   google_fonts: ^6.1.0
