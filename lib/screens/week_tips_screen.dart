@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'chatbot_screen.dart';
+import 'emergency_support_screen.dart';
 
 class WeekTipsScreen extends StatefulWidget {
   final String language; // 'hi' or 'en'
@@ -65,6 +66,20 @@ class _WeekTipsScreenState extends State<WeekTipsScreen> {
           ),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.emergency, color: Colors.red),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const EmergencySupportScreen(),
+                ),
+              );
+            },
+            tooltip: 'Emergency Support',
+          ),
+        ],
       ),
       body: FutureBuilder<Map<String, dynamic>>(
         future: _weekDataFuture,
