@@ -100,12 +100,17 @@ class HomeBeforeLogin extends StatelessWidget {
                       'Trusted information at your fingertips'),
                   const SizedBox(height: 32),
 
-                  // Full-width Login button
+                  // Full-width Get Started button
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Navigate to Login
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const RegisterScreen(),
+                          ),
+                        );
                       },
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(
@@ -118,51 +123,12 @@ class HomeBeforeLogin extends StatelessWidget {
                         ),
                       ),
                       child: Text(
-                        'Login',
+                        'Get Started',
                         style: Theme.of(context)
                             .textTheme
                             .bodyLarge
                             ?.copyWith(
                               color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-
-                  // Full-width Register button
-                  SizedBox(
-                    width: double.infinity,
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const RegisterScreen(),
-                          ),
-                        );
-                      },
-                      style: TextButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 24,
-                          vertical: 16,
-                        ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(30),
-                          side: BorderSide(
-                            color: Colors.pink.shade300,
-                            width: 2,
-                          ),
-                        ),
-                      ),
-                      child: Text(
-                        'Register',
-                        style: Theme.of(context)
-                            .textTheme
-                            .bodyLarge
-                            ?.copyWith(
-                              color: Colors.pink.shade300,
                               fontWeight: FontWeight.bold,
                             ),
                       ),
