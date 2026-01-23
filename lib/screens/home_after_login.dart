@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'week_tips_screen.dart';
+import 'digital_dadi_voice_screen.dart';
 import 'emergency.dart';
 
 class HomeAfterLoginScreen extends StatelessWidget {
@@ -44,6 +45,10 @@ class HomeAfterLoginScreen extends StatelessWidget {
 
                 // View Daily Tips Button
                 _buildDailyTipsButton(context),
+                const SizedBox(height: 16),
+
+                // Talk to Digital Dadi Button
+                _buildTalkToDadiButton(context),
                 const SizedBox(height: 32),
 
                 // Additional Info Card
@@ -53,27 +58,21 @@ class HomeAfterLoginScreen extends StatelessWidget {
           ),
         ),
       ),
-
-  floatingActionButton: FloatingActionButton(
-    backgroundColor: Colors.red,
-    child: const Icon(Icons.call, color: Colors.white),
-    onPressed: () {
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => EmergencyScreen(),
-        ),
-      );
-    },
-  ),
-);
-<<<<<<< Updated upstream
-}
- 
-=======
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.red,
+        child: const Icon(Icons.call, color: Colors.white),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => EmergencyScreen(),
+            ),
+          );
+        },
+      ),
+    );
   }
 
->>>>>>> Stashed changes
   /// Build the care stage summary card
   Widget _buildCareStageCard(BuildContext context) {
     // Mock data
@@ -145,6 +144,51 @@ class HomeAfterLoginScreen extends StatelessWidget {
                 ),
           ),
         ],
+      ),
+    );
+  }
+
+  /// Build the Talk to Digital Dadi button
+  Widget _buildTalkToDadiButton(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      child: ElevatedButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const DigitalDadiVoiceScreen(),
+            ),
+          );
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.orange.shade400,
+          foregroundColor: Colors.white,
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+          elevation: 4,
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.mic,
+              size: 20,
+              color: Colors.white,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              'Talk to Digital Dadi',
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
