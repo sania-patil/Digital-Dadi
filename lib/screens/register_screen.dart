@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../services/firebase_service.dart';
 import 'home_after_login.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -827,12 +828,86 @@ class _RegisterScreenState extends State<RegisterScreen> {
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton(
-        onPressed: () {
-          // Navigate to HomeAfterLoginScreen
-          Navigator.push(
-            context,
-            MaterialPageRoute(builder: (context) => const HomeAfterLoginScreen()),
-          );
+        onPressed: () async {
+          // Validate required fields
+          if (_motherNameController.text.isEmpty) {
+            _showErrorDialog('Please enter your name');
+            return;
+          }
+
+          if (_primaryContactNameController.text.isEmpty ||
+              _primaryContactPhoneController.text.isEmpty) {
+            _showErrorDialog(
+                'Please provide at least primary emergency contact');
+            return;
+          }
+
+          // Show loading dialog
+          _showLoadingDialog();
+
+          try {
+            // Prepare emergency contacts data
+            Map<String, Map<String, String>> emergencyContacts = {
+              'primary': {
+                'name': _primaryContactNameController.text,
+                'phone': _primaryContactPhoneController.text,
+              },
+              'secondary': {
+                'name': _secondaryContactNameController.text,
+                'phone': _secondaryContactPhoneController.text,
+              },
+              'tertiary': {
+                'name': _tertiaryContactNameController.text,
+                'phone': _tertiaryContactPhoneController.text,
+              },
+            };
+
+            // Get current user
+            var currentUser = FirebaseService.getCurrentUser();
+
+            if (currentUser != null) {
+              // Save user registration data to Firestore
+              await FirebaseService.saveUserRegistrationData(
+                userId: currentUser.uid,
+                motherName: _motherNameController.text,
+                careStage: _selectedCareStage,
+                pregnancyMonth: _pregnancyMonth,
+                babyAgeWeeks: _babyAgeWeeks,
+                deliveryType: _deliveryType,
+                languagePreference: _selectedLanguage,
+                emergencyContacts: emergencyContacts,
+              );
+
+              // Close loading dialog
+              if (mounted) {
+                Navigator.of(context).pop();
+              }
+
+              // Show success message
+              _showSuccessDialog('Registration successful!');
+
+              // Navigate to HomeAfterLoginScreen
+              if (mounted) {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const HomeAfterLoginScreen()),
+                );
+              }
+            } else {
+              // Close loading dialog
+              if (mounted) {
+                Navigator.of(context).pop();
+              }
+              _showErrorDialog('User not authenticated. Please sign up first.');
+            }
+          } catch (e) {
+            // Close loading dialog
+            if (mounted) {
+              Navigator.of(context).pop();
+            }
+            _showErrorDialog('Error: ${e.toString()}');
+          }
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFFD4845A),
@@ -853,6 +928,124 @@ class _RegisterScreenState extends State<RegisterScreen> {
           ),
         ),
       ),
+    );
+  }
+
+  // Helper method to show error dialog
+  void _showErrorDialog(String message) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Text(
+            'Error',
+            style: GoogleFonts.poppins(
+              fontWeight: FontWeight.w700,
+              color: Colors.red[700],
+            ),
+          ),
+          content: Text(
+            message,
+            style: GoogleFonts.nunito(
+              fontSize: 14,
+              color: const Color(0xFF333333),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text(
+                'OK',
+                style: GoogleFonts.nunito(
+                  fontWeight: FontWeight.w600,
+                  color: Colors.red[700],
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  // Helper method to show success dialog
+  void _showSuccessDialog(String message) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Text(
+            'Success',
+            style: GoogleFonts.poppins(
+              fontWeight: FontWeight.w700,
+              color: Colors.green[700],
+            ),
+          ),
+          content: Text(
+            message,
+            style: GoogleFonts.nunito(
+              fontSize: 14,
+              color: const Color(0xFF333333),
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text(
+                'OK',
+                style: GoogleFonts.nunito(
+                  fontWeight: FontWeight.w600,
+                  color: Colors.green[700],
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  // Helper method to show loading dialog
+  void _showLoadingDialog() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          content: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const CircularProgressIndicator(
+                  color: Color(0xFFD4845A),
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  'Saving your information...',
+                  style: GoogleFonts.nunito(
+                    fontSize: 14,
+                    color: const Color(0xFF333333),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 }

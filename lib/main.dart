@@ -1,7 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'screens/home_before_login.dart';
+import 'services/auth_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  
+  // Sign in anonymously if not already signed in
+  try {
+    if (!AuthService.isSignedIn()) {
+      await AuthService.signInAnonymously();
+    }
+  } catch (e) {
+    print('Anonymous sign in error: $e');
+  }
+  
   runApp(const MyApp());
 }
 
